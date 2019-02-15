@@ -1,0 +1,77 @@
+/* Sass Document */
+
+$titleColor: #444;
+$textColor: #888;
+$borderColor: #ddd;
+$bgSection: #f1f1f1;
+$corAldeia: #007dcd;
+
+$corTextos: #444;
+
+/*============== Layout ==============*/
+
+html, body, .capa{
+	height: 100%;
+}
+
+body{
+	font-family: 'Roboto', "Open Sans", sans-serif;
+	overflow-x: hidden;
+}
+
+.row.no-gutter{
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.row.no-gutter > [class*='col-']{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#menu-superior{
+	height:50px;
+	font-family: "Roboto", Arial;
+
+	.navbar{
+		background:#fff;
+		border:none;
+		z-index:99999;
+
+		.navbar-brand{
+			padding:0;
+		}
+
+		.navbar-collapse{
+			border:none;
+		}
+
+		.navbar-toggle{
+			border:none;
+			background: black;
+		}
+
+		.logo-menu{
+			width:150px;
+		}
+
+		#barra-navegacao{
+			a{
+				color:$corTextos;
+			}
+			a:hover{
+				color:lighten($corTextos, 40%);
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 768px){
+	#menu-superior{
+		.navbar{
+			.logo-menu{
+				width:50px !important;
+			}
+		}
+	}
+}

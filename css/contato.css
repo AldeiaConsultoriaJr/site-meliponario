@@ -1,0 +1,48 @@
+.img-centralizada{
+	text-align:center;
+}
+#hero{
+	display: table;
+	width:100%;
+	background: url("../img/contato/bg.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+#hero .format{
+	font-size: 85px;
+	font-style: italic;
+	color: #fff;
+	font-family: Georgia, Verdana, Arial;
+	text-align: center;
+    /*vertical-align: middle;*/
+}
+#contato{
+	width: 100%;
+	margin-top: 50px;
+}
+#contato .fundo{
+	background: #eeeeee;
+}
+#contato .marge{
+	margin: 20px;
+}
+#contato .tamMap{
+	height: 300px;
+}
+#contato .textoContato{
+	font-size: 15px;
+	font-style: italic;
+	color: #000;
+	font-family: Arial, Verdana, Georgia;
+	text-align: center;
+}
+
+#contato .formulario-contato{
+	margin:20px auto;
+	width:50%;
+}
+#contato .padding{
+	padding-top: 25px;
+}
+textarea{
+	resize: none;
+}

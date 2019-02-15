@@ -1,0 +1,79 @@
+#hero {
+  display: table;
+  width: 100%;
+  height: 500px;
+  background: url("../img/home/hero.jpg") no-repeat center fixed;
+  background-size: cover;
+  color: #fff;
+  text-shadow: 1px 1px 1px black; }
+  #hero .textos {
+    height: 500px;
+    display: table-cell;
+    vertical-align: middle; }
+  #hero .titulo-hero {
+    text-align: center;
+    font-size: 3.9em;
+    font-family: "Passion One", "Open Sans"; }
+  #hero .texto-hero {
+    font-size: 1.7em;
+    text-align: center;
+    font-family: "Open Sans";
+    font-weight: 400; }
+
+#amigos-meliponario {
+  padding-top: 30px;
+  text-align: center; }
+  #amigos-meliponario .titulo {
+    font-size: 2.3em;
+    font-weight: bold; }
+  #amigos-meliponario .img-amigo {
+    padding-top: 40px;
+    width: 80%;
+    text-align: center; }
+
+@media only screen and (max-width: 768px) {
+  #amigos-meliponario .img-amigo {
+    width: 60%;
+    padding-top: 10px; } }
+#texto-destaque {
+  display: table;
+  padding-top: 30px;
+  text-align: center; }
+  #texto-destaque .linha-texto {
+    padding-top: 20px;
+    text-align: justify; }
+    #texto-destaque .linha-texto p {
+      text-indent: 2em; }
+  #texto-destaque .img-destaque {
+    width: 100%;
+    height: 400px; }
+  #texto-destaque .um {
+    background: url("../img/home/destaque1.jpg") no-repeat;
+    background-size: cover;
+    height: 470px; }
+  #texto-destaque .dois {
+    background: url("../img/home/destaque2.jpg") no-repeat;
+    background-size: cover;
+    height: 600px; }
+  #texto-destaque .tres {
+    background: url("../img/home/destaque3.jpg") no-repeat;
+    background-size: cover; }
+  #texto-destaque .quatro {
+    background: url("../img/home/destaque4.jpg") no-repeat;
+    background-size: cover; }
+  #texto-destaque .textos {
+    height: 400px;
+    padding: 50px;
+    display: table-cell;
+    vertical-align: middle; }
+  #texto-destaque .titulo {
+    font-size: 2.3em;
+    font-weight: bold; }
+  #texto-destaque .texto {
+    font-size: 1.2em; }
+
+@media only screen and (max-width: 768px) {
+  #texto-destaque .dois {
+    height: 400px; } }
+
+/*# sourceMappingURL=home.css.map */

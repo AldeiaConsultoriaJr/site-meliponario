@@ -1,0 +1,61 @@
+/* Sass Document */
+/*============== Layout ==============*/
+html, body, .capa {
+  height: 100%; }
+
+body {
+  font-family: 'Roboto', "Open Sans", sans-serif;
+  overflow-x: hidden; }
+
+.row.no-gutter {
+  margin-right: 0;
+  margin-left: 0; }
+
+.row.no-gutter > [class*='col-'] {
+  padding-left: 0;
+  padding-right: 0; }
+
+#menu-superior {
+  height: 50px;
+  font-family: "Roboto", Arial; }
+  #menu-superior .navbar {
+    background: #fff;
+    border: none;
+    z-index: 99999; }
+    #menu-superior .navbar .navbar-brand {
+      padding: 0; }
+    #menu-superior .navbar .navbar-collapse {
+      border: none; }
+    #menu-superior .navbar .navbar-toggle {
+      border: none;
+      background: black; }
+    #menu-superior .navbar .logo-menu {
+      width: 150px; }
+    #menu-superior .navbar #barra-navegacao a {
+      color: #444; }
+    #menu-superior .navbar #barra-navegacao a:hover {
+      color: #aaaaaa; }
+
+#footer{
+  background: linear-gradient(#fff, #b6d72d);
+  margin-top:70px;
+  padding-bottom:20px;
+}
+#footer .centralizado{
+    margin:0 auto;
+    text-align:Center;
+}
+.texto-rodape{
+  margin-top:50px;
+  font-size:1.2em;
+}
+.img-meliponario{
+  margin-top:30px;
+  height:150px;
+}
+
+@media only screen and (max-width: 768px) {
+  #menu-superior .navbar .logo-menu {
+    width: 50px !important; } }
+
+/*# sourceMappingURL=base.css.map */

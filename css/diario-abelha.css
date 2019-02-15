@@ -1,0 +1,18 @@
+#destaque {
+  display: table;
+  height: 300px;
+  width: 100%;
+  background: url("../img/diario-abelha/img-destaque.png"); }
+  #destaque .img-logo-abelha {
+    margin-top: 100px;
+    height: 200px; }
+  #destaque .texto-destaque {
+    font-size: 3.5em;
+    font-family: Georgia, "Open Sans";
+    color: #fff;
+    height: 300px;
+    text-shadow: 1px 1px 1px #888;
+    display: table-cell;
+    vertical-align: middle; }
+
+/*# sourceMappingURL=diario-abelha.css.map */

@@ -1,0 +1,59 @@
+#hero {
+  font-size: 4.2em;
+  background: url("../img/galeria/bg.jpg");
+  height: 200px;
+  background-size: cover;
+  color: #fff;
+  text-align: right;
+  font-family: Georgia, Verdana;
+  font-style: italic; }
+  #hero .texto {
+    height: 200px;
+    padding-top: 50px; }
+
+#galeria-fotos {
+  margin-bottom: 50px; }
+  #galeria-fotos .container {
+    padding-left: 30px;
+    padding-right: 30px; }
+    #galeria-fotos .container .um {
+      background: url("../img/galeria/1.jpg");
+      background-size: cover;
+      height: 250px; }
+    #galeria-fotos .container .dois {
+      background: url("../img/galeria/2.jpg");
+      background-size: cover;
+      height: 250px; }
+    #galeria-fotos .container .tres {
+      background: url("../img/galeria/3.jpg");
+      background-size: cover;
+      height: 250px; }
+    #galeria-fotos .container .quatro {
+      background: url("../img/galeria/4.jpg");
+      background-size: cover;
+      height: 250px; }
+    #galeria-fotos .container .cinco {
+      background: url("../img/galeria/5.jpg");
+      background-size: cover;
+      height: 250px; }
+    #galeria-fotos .container .seis {
+      background: url("../img/galeria/6.jpg");
+      background-size: cover;
+      height: 250px; }
+    #galeria-fotos .container .sete {
+      background: url("../img/galeria/7.jpg");
+      background-size: cover;
+      height: 250px; }
+    #galeria-fotos .container .oito {
+      background: url("../img/galeria/8.jpg");
+      background-size: cover;
+      height: 250px; }
+    #galeria-fotos .container .nove {
+      background: url("../img/galeria/9.jpg");
+      background-size: cover;
+      height: 250px; }
+
+.img-full {
+  width: 100%; }
+
+/*# sourceMappingURL=galeria.css.map */

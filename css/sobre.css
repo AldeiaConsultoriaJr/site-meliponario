@@ -1,0 +1,46 @@
+#hero{
+	width: 100%;
+	background: url("../img/sobre/background-hero.png");
+}
+
+.texto-hero{
+	font-size:3.2em;
+	font-family: Georgia, Arial, Verdana;
+	color:#fff;
+	text-align:center;
+	margin-top:80px;
+}
+
+.img-hero{
+	height:241px;
+}
+
+/* Início Seção texto */
+#texto{
+	font-size:1.2em;
+}
+
+.row-texto{
+	height:auto;
+	background:green;
+}
+
+.fundo-branco{
+	background:#fff;
+}
+
+.img-centralizada{
+	margin:0 auto;
+}
+
+.img-abaixo-texto{
+	max-height: 200px;
+}
+
+.row-abaixo-texto{
+	background: green;
+}
+
+.padding{
+	padding:50px;
+}
