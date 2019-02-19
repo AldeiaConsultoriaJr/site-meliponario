@@ -11,47 +11,114 @@
     height: 200px;
     padding-top: 50px; }
 
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1000;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/ opacity */ }
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px; }
+
+/* Add Animation */
+.modal-content, #caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s; }
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0); }
+  to {
+    -webkit-transform: scale(1); } }
+@keyframes zoom {
+  from {
+    transform: scale(0); }
+  to {
+    transform: scale(1); } }
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s; }
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer; }
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%; } }
 #galeria-fotos {
   margin-bottom: 50px; }
   #galeria-fotos .container {
     padding-left: 30px;
     padding-right: 30px; }
+    #galeria-fotos .container .img-full {
+      background-size: cover;
+      height: 250px !important; }
+    #galeria-fotos .container .img-full:hover {
+      opacity: 0.7;
+      cursor: pointer; }
     #galeria-fotos .container .um {
-      background: url("../img/galeria/1.jpg");
-      background-size: cover;
-      height: 250px; }
+      background: url("../img/galeria/1.jpg"); }
     #galeria-fotos .container .dois {
-      background: url("../img/galeria/2.jpg");
-      background-size: cover;
-      height: 250px; }
+      background: url("../img/galeria/2.jpg"); }
     #galeria-fotos .container .tres {
-      background: url("../img/galeria/3.jpg");
-      background-size: cover;
-      height: 250px; }
+      background: url("../img/galeria/3.jpg"); }
     #galeria-fotos .container .quatro {
-      background: url("../img/galeria/4.jpg");
-      background-size: cover;
-      height: 250px; }
+      background: url("../img/galeria/4.jpg"); }
     #galeria-fotos .container .cinco {
-      background: url("../img/galeria/5.jpg");
-      background-size: cover;
-      height: 250px; }
+      background: url("../img/galeria/5.jpg"); }
     #galeria-fotos .container .seis {
-      background: url("../img/galeria/6.jpg");
-      background-size: cover;
-      height: 250px; }
+      background: url("../img/galeria/6.jpg"); }
     #galeria-fotos .container .sete {
-      background: url("../img/galeria/7.jpg");
-      background-size: cover;
-      height: 250px; }
+      background: url("../img/galeria/7.jpg"); }
     #galeria-fotos .container .oito {
-      background: url("../img/galeria/8.jpg");
-      background-size: cover;
-      height: 250px; }
+      background: url("../img/galeria/8.jpg"); }
     #galeria-fotos .container .nove {
-      background: url("../img/galeria/9.jpg");
-      background-size: cover;
-      height: 250px; }
+      background: url("../img/galeria/9.jpg"); }
+    #galeria-fotos .container .dez {
+      background: url("../img/galeria/7.jpg"); }
+    #galeria-fotos .container .onze {
+      background: url("../img/galeria/8.jpg"); }
+    #galeria-fotos .container .doze {
+      background: url("../img/galeria/9.jpg"); }
+    #galeria-fotos .container .treze {
+      background: url("../img/galeria/7.jpg"); }
+    #galeria-fotos .container .quatorze {
+      background: url("../img/galeria/8.jpg"); }
+    #galeria-fotos .container .nove {
+      background: url("../img/galeria/9.jpg"); }
 
 .img-full {
   width: 100%; }
